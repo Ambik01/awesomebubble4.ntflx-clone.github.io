@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    color: #fff;
+    background: #222;
+    overflow-x: hidden;
+
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+
+
+.main {
+    position: relative;
+    width: 100vw;
+   height: 900px;
+    padding: 0rem 5rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/login-cover-image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main .logo img {
+    height: 120px;
+    width: 200px;
+}
+
+.main .user-login .container {
+    height: 68rem;
+    width: 45rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    border-radius: 6px;
+}
+
+.main .user-login .container .title h1 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-left: 55px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+
+}
+
+
+
+.main .user-login .container .content form .form-control {
+    background: #333;
+    font-size: 1.7rem;
+    padding: 12px 20px;
+    width: 75%;
+    margin: 16px auto;
+    border-radius: 2px;
+    border: none;
+    color: #fff;
+}
+
+
+.main .user-login .container .content .form-check {
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: 500;
+    color: #999;
+
+}
+
+.main .user-login .container .content .form-check #exampleCheck1 {
+    font-size: 1.5rem;
+    background-color: #777;
+    border: none;
+
+}
+
+.main .user-login .container .content .form-check a {
+
+    color: #999;
+
+
+}
+
+.main .user-login .container .content .form-check a:hover {
+
+    text-decoration: underline;
+
+}
+
+.main .user-login .container .content form .btn{
+    width: 75%;
+    margin-left: 55px;
+    margin-top: 25px;
+    font-size: 1.7rem;
+    font-weight: 700;
+    padding: 10px 20px;
+    background-color: #e50914;
+
+
+}
+
+.main .user-login .container .content .extra-details {
+    width: 85%;
+    margin: auto;
+    color: #777;
+    padding: 85px 30px;
+    text-align: left;
+
+
+}
+
+.main .user-login .container .content .extra-details h3 {
+    font-weight: 400;
+    font-size: 1.7rem;
+
+
+}
+
+.main .user-login .container .content .extra-details #extra-details-h3 a:hover {
+    color: #fff;
+
+
+}
+
+.main .user-login .container .content .extra-details p {
+    font-size: 13.5px;
+    margin-top: 10px;
+    color: #888;
+
+
+}
+
+.main .user-login .container .content .extra-details #extra-details-a {
+    color: rgb(68, 68, 219);
+    font-weight: 500;
+}
+
+.main .user-login .container .content .extra-details a:hover {
+    text-decoration: underline;
+    color: rgb(68, 68, 219);
+
+
+}
+
+@media (max-width:739px){
+    .main{
+        background: #000;
+        height: 100vh;
+    }
+}
+
+
+
+@media (max-width:540px){
+
+    .user-login .container {
+    
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    
+
+  }
+
+  .main .user-login .container .title h1 {
+    
+    margin-left: 25px;
+   
+
+}
+
+  .main .user-login .container {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.main .user-login .container .content form .form-control {
+    width: 95%;
+    
+   
+}
+
+.main .user-login .container .content form .btn {
+    width: 95%;
+    margin-left: 10px;
+    margin-top: 25px;
+    font-size: 1.7rem;
+    font-weight: 700;
+    padding: 10px 20px;
+    background-color: #e50914;
+
+
+}
+
+.main .user-login .container .content .form-check {
+   
+    padding: 0 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+
+.main .user-login .container .content .extra-details {
+    width: 100%;
+    margin: auto;
+    color: #777;
+    padding: 40px 4px;
+    text-align: left;
+
+}
+
+
+.main .user-login .container .content .extra-details h3 {
+    font-weight: 500;
+    font-size: 1.6rem;
+
+
+}
+
+.main .user-login .container .content .extra-details #extra-details-h3 a:hover {
+    color: #fff;
+
+
+}
+
+.main .user-login .container .content .extra-details p {
+    font-size: 13.5px;
+    margin-top: 15px;
+    color: #888;
+    line-height: 1.1;
+
+
+}
+
+}
+
+@media (max-width:480px){
+
+    .main .logo img {
+        height: 50px;
+        width: 100px;
+        margin-left: -45px;
+        margin-top: 5px;
+    }
+ 
+    .user-login .container {
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100rem;
+        width: 100rem;
+        background-color: yellow;
+       
+   
+     }
+    .user-login .container .content {
+    
+        width: 38rem;
+        
+       
+   
+     }
+   
+     .main .user-login .container .title h1 {
+       
+       margin-left: 10px;
+       padding-top: 10px;
+      
+   
+   }
+   
+   
+   .main .user-login .container .content form .form-control {
+       width: 95%;
+      
+   }
+   
+   .main .user-login .container .content form .btn {
+       width: 95%;
+       margin-left: 10px;
+       margin-top: 25px;
+      
+   
+   
+   }
+
+   .main .user-login .container .content .form-check {
+   
+    padding: 0 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+    
+}
+

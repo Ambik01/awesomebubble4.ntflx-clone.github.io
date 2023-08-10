@@ -1,0 +1,1282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    background: #222;
+    overflow-x: hidden;
+
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+
+i {
+    font-size: 16px;
+    color: #fff;
+}
+
+
+.common-section {
+    max-width: 100vw;
+    height: 100%;
+    margin: 8px 0;
+    background-color: #000;
+
+}
+
+.common-section .container .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.story-title h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 1.8rem;
+
+}
+
+.story-title h2 {
+    font-size: 2.6rem;
+}
+
+/* **************header section starts ************** */
+
+
+header {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding: 0rem 5rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/cover-main.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+
+}
+
+.navbar .navbar-logo>img {
+    height: 100px;
+    width: 180px;
+}
+
+.navbar .menu {
+    font-size: 22px;
+    
+
+}
+
+.navbar .menu #select_field {
+    position: relative;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 0.4rem 1rem;
+    color: #fff;
+    font-size: 1.6rem;
+    
+
+
+}
+
+.navbar .menu #select_field option {
+    background-color: #707070;
+    font-size: 1.5rem;
+    
+
+}
+
+.navbar .menu #sign_in_btn {
+    background-color: #e50914;
+    padding: 0.5rem 1.6rem;
+    border-radius: 0.3rem;
+    margin-left: 2.6rem;
+    font-size: 1.8rem;
+    color: #fff;
+    
+
+}
+
+header .main {
+    position: relative;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+
+
+}
+
+header .main .text-field,
+.section-six .max-width .text-field {
+
+    position: relative;
+    padding: 75px 0;
+    max-width: 95rem;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+header .main .text-field h1 {
+    font-size: 5.2rem;
+    padding: 0 20rem;
+
+}
+
+header .main .text-field h2 {
+    margin: 2rem 0;
+    font-size: 2.6rem;
+
+}
+
+header .main .text-field p,
+.section-six .text-field p {
+    font-size: 2rem;
+
+}
+
+header .main .text-field .email-input,
+.section-six .text-field .email-input {
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+header .main .text-field .email-input>input,
+.section-six .text-field .email-input>input {
+    font-size: 1.6rem;
+    width: 50%;
+    height: 60px;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 2px 0 0 2px;
+    margin-right: 1px;
+
+
+}
+
+header .main .text-field .email-input #email_btn,
+.section-six .text-field .email-input #email_btn {
+    font-size: 2.6rem;
+    background-color: #e50914;
+    padding: 4px 32px;
+    align-items: center;
+
+}
+
+header .main .text-field .email-input a,
+.section-six .text-field .email-input a {
+    color: #fff;
+
+
+}
+
+header .main .text-field .email-input a .right-arrow,
+.section-six .text-field .email-input a .right-arrow {
+    font-size: 20px;
+
+}
+
+
+
+
+/* ************** header section ends *************** */
+
+
+
+
+/* ************ section 2 starts********************* */
+
+.section-two .max-width {
+    height: 470px;
+    display: flex;
+    align-items: center;
+}
+
+
+.section-two .container .featured-image {
+    position: relative;
+
+}
+
+.section-two .container .row .featured-image img {
+
+    width: 95%;
+    margin: auto 5rem;
+
+}
+
+.section-two .container .featured-image::before {
+    content: " ";
+    height: 210px;
+    width: 312px;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../images/snowball-rocksideroad.gif') center;
+
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    top: 48%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #000;
+
+
+}
+
+
+
+/* ************ section 2 ends********************* */
+
+
+
+/* ************ section 3 starts********************* */
+
+
+.section-third .max-width {
+    position: relative;
+    height: 470px;
+    display: flex;
+    align-items: center;
+}
+
+.section-third .container .featured-image {
+    position: relative;
+
+}
+
+.section-third .container .row .featured-image img {
+
+    width: 90%;
+    margin-left: -5rem;
+    margin-bottom: 3rem;
+
+
+}
+
+.section-third .container .featured-image::before {
+    content: " ";
+    height: 100px;
+    width: 350px;
+    background: url('../images/extra-2.png') center;
+
+    background-size: cover;
+    position: absolute;
+    left: 36%;
+    top: 75%;
+    transform: translate(-50%, -50%);
+
+
+
+}
+
+
+
+
+/* ************ section 3 ends********************* */
+
+
+
+/* ************ section 4 starts********************* */
+.section-four .max-width {
+    position: relative;
+    height: 530px;
+    display: flex;
+    align-items: center;
+}
+
+.section-four .container .row .featured-image {
+    position: relative;
+}
+
+.section-four .container .row .featured-image img {
+
+    width: 96%;
+
+    margin: auto 5rem;
+
+}
+
+.section-four .container .featured-image::before {
+    content: " ";
+    height: 190px;
+    width: 312px;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../images/metal-1.png') center;
+
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    top: 32%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #000;
+
+
+}
+
+
+
+/* ************ section 4 ends********************* */
+
+
+
+
+
+/* ************ section 5 starts********************* */
+
+
+.section-five .max-width {
+    position: relative;
+    height: 520px;
+    display: flex;
+    align-items: center;
+}
+
+.section-five .container .row .featured-image img {
+
+    width: 95%;
+
+
+
+}
+
+/* ************ section 5 ends********************* */
+
+
+
+
+
+/* ************ section 6 starts********************* */
+
+.section-six .max-width {
+    position: relative;
+    height: auto;
+    position: relative;
+}
+
+.content {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 160px;
+}
+
+.content .title h1 {
+    text-align: center;
+    margin: 30px 0 50px 0;
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.content .content-box {
+    width: 100%;
+    margin: auto;
+    margin: 4px 10px;
+
+}
+
+
+.content .content-box .label {
+    position: relative;
+    padding: 16px 30px;
+    font-size: 2.8rem;
+    background: #333;
+    cursor: pointer;
+}
+
+.content .content-box .label::before {
+    content: "+";
+    position: absolute;
+    top: 45%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 5rem;
+    font-weight: 200;
+}
+
+.content-box .answer {
+    position: relative;
+    background: #333;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: hidden;
+    margin-top: 1px;
+    font-size: 2.6rem;
+
+}
+
+.content .content-box.active .answer {
+    height: auto;
+    padding: 10px;
+    margin-bottom: 1px;
+    padding: 18px 30px;
+}
+
+.content .content-box.active .label::before {
+    content: "+";
+    font-size: 5rem;
+    transform: translateY(-50%) rotate(-45deg);
+
+}
+
+.section-six .max-width .text-field {
+    margin-top: -50px;
+}
+
+.section-six .text-field .email-input #email_btn {
+    padding: 10.8px 32px;
+}
+
+
+/* ************ section 6 ends********************* */
+
+
+
+
+/************************footer section starts***********************/
+
+.footer {
+    position: relative;
+
+}
+
+.footer .max-width {
+    padding: 70px 120px;
+}
+
+.footer .site-footer {
+    font-size: 1.8rem;
+    color: #999595;
+}
+
+.footer .site-footer a {
+    color: #999595;
+}
+
+.footer .site-footer .footer-top-a:hover {
+
+    text-decoration: underline;
+}
+
+.footer .menu {
+    margin: 15px 0;
+}
+
+.footer .menu #select_field {
+    background-color: #000;
+    color: #999595;
+    padding: 10px;
+}
+
+
+/************************footer section ends***********************/
+
+
+
+/************************ responsive css starts **********************/
+
+
+
+/* for large devices */
+
+
+@media (max-width:1199px) {
+
+
+    .section-two .container .featured-image::before {
+
+        height: 176px;
+        width: 250px;
+
+    }
+
+    .section-third .container .featured-image::before {
+
+        height: 80px;
+        width: 280px;
+
+    }
+
+    .section-four .container .featured-image::before {
+
+        height: 170px;
+        width: 250px;
+        left: 56%;
+
+    }
+
+    .section-six .content .title h1 {
+        font-size: 4.6rem;
+
+    }
+
+    .section-six .max-width .content {
+
+
+        padding: 40px 100px;
+    }
+
+}
+
+
+@media (max-width:1078px) {
+
+    .section-two .container .row .featured-image img {
+        width: 85%;
+
+    }
+
+    .section-two .container .featured-image::before {
+        height: 150px;
+        width: 230px;
+        left: 48%;
+        top: 48%;
+
+    }
+
+    .section-four .container .row .featured-image img {
+        width: 85%;
+        margin: auto 5rem;
+    }
+
+    .section-four .container .featured-image::before {
+
+        height: 150px;
+        width: 200px;
+
+    }
+}
+
+/* for medium / tablet devices */
+
+@media (max-width:998px) {
+    html {
+        font-size: 50%;
+    }
+
+    .navbar .menu #select_field option {
+
+        font-size: 1rem;
+
+    }
+
+    header .main .text-field {
+        margin-bottom: 120px;
+    }
+
+    .navbar .menu #select_field option {
+
+        font-size: 1rem;
+
+    }
+
+    .navbar .menu #sign_in_btn {
+        background-color: #e50914;
+        padding: 0.5rem 1.6rem;
+        border-radius: 0.3rem;
+        margin-left: 2.6rem;
+        font-size: 1.8rem;
+        color: #fff;
+
+    }
+
+    header .main {
+        position: relative;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 2;
+
+
+    }
+
+    header .main .text-field,
+    .section-six .max-width .text-field {
+
+        position: relative;
+        padding: 75px 0;
+        max-width: 95rem;
+        margin: 0 auto;
+        text-align: center;
+
+    }
+
+    header .main .text-field h1 {
+        font-size: 6.5rem;
+        padding: 0 15rem;
+
+    }
+
+    header .main .text-field h2 {
+
+        font-size: 3.5rem;
+        font-weight: 400;
+
+    }
+
+    header .main .text-field p,
+    .section-six .text-field p {
+        font-size: 2.4rem;
+        font-weight: 500;
+
+    }
+
+
+    header .main .text-field .email-input>input,
+    .section-six .text-field .email-input>input {
+        font-size: 2rem;
+        width: 60%;
+    }
+
+    header .main .text-field .email-input #email_btn,
+    .section-six .text-field .email-input #email_btn {
+        font-size: 3.0rem;
+        padding: 7px 32px;
+    }
+
+
+    header .main .text-field .email-input a .right-arrow,
+    .section-six .text-field .email-input a .right-arrow {
+        font-size: 20px;
+
+    }
+
+
+    .section-six .text-field .email-input #email_btn {
+        padding: 13px 32px;
+    }
+}
+
+
+@media (max-width:991px) {
+
+    .section-two .container .row .featured-image img {
+
+        width: 90%;
+
+    }
+
+    .section-two .container .featured-image::before {
+
+        height: 126px;
+        width: 180px;
+        left: 50%;
+
+    }
+
+    .section-four .container .row .featured-image img {
+
+        width: 90%;
+    }
+
+
+    .section-four .container .featured-image::before {
+
+        height: 130px;
+        width: 150px;
+
+    }
+
+
+}
+
+
+
+@media (max-width:767px) {
+
+    header .main {
+        margin-top: 40px;
+    }
+
+
+    .navbar .navbar-logo>img {
+        height: 80px;
+        width: 140px;
+    }
+
+    .navbar .menu #sign_in_btn {
+
+        padding: 0.6rem 1.6rem;
+
+    }
+
+    header .main .text-field h1 {
+        font-size: 6.5rem;
+        padding: 0 10rem;
+
+    }
+
+    header .main .text-field h2 {
+
+        font-size: 3.5rem;
+        font-weight: 500;
+
+    }
+
+    header .main .text-field p,
+    .section-six .text-field p {
+        font-size: 3rem;
+        font-weight: 400;
+        padding: 0 10rem;
+        line-height: 1.2;
+
+
+    }
+
+    header .main .text-field .email-input,
+    .section-six .text-field .email-input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+    }
+
+
+
+    header .main .text-field .email-input>input,
+    .section-six .text-field .email-input>input {
+
+        width: 75%;
+        padding: 0 15px;
+    }
+
+    header .main .text-field .email-input #email_btn,
+    .section-six .text-field .email-input #email_btn {
+        font-size: 2rem;
+        font-weight: 600;
+        margin-top: 3rem;
+        padding: 4px 16px;
+    }
+
+    header .main .text-field .email-input a .right-arrow,
+    .section-six .text-field .email-input a .right-arrow {
+        font-size: 15px;
+
+    }
+
+    .section-two .container .row .featured-image img,
+    .section-third .container .row .featured-image img,
+    .section-four .container .row .featured-image img,
+    .section-five .container .row .featured-image img {
+
+        width: 100%;
+        margin-left: 0;
+
+    }
+
+    .section-two .container .featured-image::before {
+        height: 195px;
+        width: 312px;
+
+        left: 45%;
+
+    }
+
+    .section-third .container .featured-image::before {
+        height: 110px;
+        width: 380px;
+        left: 50%;
+
+    }
+
+    .section-four .container .featured-image::before {
+        height: 190px;
+        width: 260px;
+        left: 43%;
+
+    }
+
+
+    .section-two .max-width,
+    .section-third .max-width,
+    .section-four .max-width,
+    .section-five .max-width {
+        min-height: 680px;
+
+    }
+
+    .section-third .max-width .container,
+    .section-five .max-width .container,
+    .section-two .max-width .container,
+    .section-four .max-width .container {
+
+        text-align: center;
+    }
+
+    .section-third .container .order-m,
+    .section-five .container .order-m {
+
+        order: -1;
+    }
+
+
+
+    .section-six .text-field .email-input #email_btn {
+        padding: 10.8px 20px;
+        margin-top: 15px;
+
+    }
+
+    .section-six .content .title h1 {
+        font-size: 5rem;
+        padding-top: 30px;
+
+
+    }
+
+    .section-six .max-width .content {
+        padding: 0;
+    }
+
+    .section-six .max-width .text-field {
+        margin-top: -50px;
+    }
+
+    .section-six .max-width .text-field p {
+        padding: 0 150px;
+    }
+
+}
+
+@media (max-width:590px) {
+
+    header .main .text-field h1 {
+        font-size: 6.2rem;
+        padding: 0;
+
+    }
+
+    header .main .text-field h2 {
+
+        font-size: 3.4rem;
+        font-weight: 400;
+
+    }
+
+    header .main .text-field p,
+    .section-six .text-field p {
+        font-size: 2.3rem;
+
+        padding: 0 7rem;
+
+    }
+
+    header .main .text-field .email-input>input {
+
+        width: 98%;
+
+    }
+
+
+    .section-two .container .row .featured-image img,
+    .section-third .container .row .featured-image img,
+    .section-four .container .row .featured-image img,
+    .section-five .container .row .featured-image img {
+
+        width: 95%;
+
+    }
+
+    .section-two .container .featured-image::before {
+        height: 180px;
+        width: 280px;
+        left: 43%;
+    }
+
+    .section-third .container .featured-image::before {
+
+        height: 90px;
+        width: 320px;
+        left: 50%;
+
+    }
+
+    .section-four .container .featured-image::before {
+
+        height: 170px;
+        width: 240px;
+        left: 45%;
+
+    }
+
+
+
+    .section-six .content .title h1 {
+        font-size: 5rem;
+        padding-top: 30px;
+
+
+    }
+
+    .section-six .max-width .content {
+        padding: 0;
+    }
+
+    .section-six .max-width .text-field {
+        margin-top: -50px;
+    }
+
+    .section-six .max-width .text-field p {
+        font-size: 2.5rem;
+        padding: 0 80px;
+    }
+
+    .section-six .text-field .email-input>input {
+
+        width: 85%;
+
+    }
+
+    .section-six .text-field .email-input #email_btn {
+        padding: 8px 15px;
+    }
+
+
+    .footer .max-width {
+        padding: 60px 80px;
+    }
+}
+
+@media (max-width:506px) {
+
+    header {
+        padding: 0 10px;
+        height: 70vh;
+    }
+
+    .navbar .navbar-logo>img {
+        height: 60px;
+        width: 120px;
+    }
+
+    header .main {
+        margin-top: -40px;
+    }
+
+
+
+    header .main .text-field h1 {
+        font-size: 3.6rem;
+        font-weight: 600;
+        padding: 0;
+
+    }
+
+    header .main .text-field h2 {
+
+        font-size: 2.2rem;
+        font-weight: 500;
+
+    }
+
+    header .main .text-field p,
+    .section-six .text-field p {
+        font-size: 2.3rem;
+
+        padding: 0 8rem;
+
+    }
+
+    header .main .text-field .email-input>input {
+
+        width: 93%;
+
+    }
+
+    header .main .text-field .email-input>input {
+
+        height: 50px;
+    }
+
+
+    .section-two .container .row .featured-image img,
+    .section-third .container .row .featured-image img,
+    .section-four .container .row .featured-image img,
+    .section-five .container .row .featured-image img {
+
+        width: 90%;
+        margin: auto;
+
+    }
+
+    .section-two .container .featured-image::before {
+        height: 160px;
+        width: 255px;
+        left: 45%;
+
+    }
+
+    .section-third .container .featured-image::before {
+
+        height: 110px;
+        width: 380px;
+        left: 50%;
+
+    }
+
+    .section-four .container .featured-image::before {
+
+        height: 150px;
+        width: 200px;
+        left: 43%;
+
+    }
+
+
+    .section-two .max-width,
+    .section-third .max-width,
+    .section-four .max-width,
+    .section-five .max-width {
+        min-height: 680px;
+
+    }
+
+
+    .section-two .max-width,
+    .section-third .max-width,
+    .section-four .max-width,
+    .section-five .max-width {
+        min-height: 560px;
+        padding: 50px 10px;
+    }
+
+
+
+
+
+    .section-six .text-field .email-input #email_btn {
+        padding: 10.8px 20px;
+        margin-top: 15px;
+
+    }
+
+    .section-six .content .title h1 {
+        font-size: 5rem;
+        padding-top: 30px;
+
+
+    }
+
+    .section-six .max-width .content {
+        padding: 0;
+    }
+
+    .section-six .max-width .text-field {
+        margin-top: -50px;
+    }
+
+    .section-six .max-width .text-field p {
+        padding: 0 50px;
+    }
+
+}
+
+@media (max-width:486px) {
+    .section-two .container .featured-image::before {
+
+        height: 160px;
+        width: 250px;
+    }
+
+    .section-four .container .featured-image::before {
+
+        height: 150px;
+        width: 190px;
+
+    }
+
+}
+
+@media (max-width:430px) {
+
+    header {
+        padding: 0 15px;
+
+    }
+
+    .navbar .navbar-logo>img {
+        height: 70px;
+        width: 110px;
+    }
+
+    header .main {
+        margin-top: -50px;
+    }
+
+
+    header .main .text-field p,
+    .section-six .text-field p {
+        font-size: 2.3rem;
+        font-weight: 500;
+        padding: 0 6rem;
+
+    }
+
+    header .main .text-field .email-input>input {
+
+        width: 95%;
+
+    }
+
+    header .main .text-field .email-input>input,
+    .section-six .text-field .email-input>input {
+
+        height: 50px;
+    }
+
+    .section-two .max-width,
+    .section-third .max-width,
+    .section-four .max-width,
+    .section-five .max-width {
+        min-height: 500px;
+        padding: 50px 10px;
+    }
+
+    .section-two .container .row .featured-image img,
+    .section-third .container .row .featured-image img,
+    .section-four .container .row .featured-image img,
+    .section-five .container .row .featured-image img {
+
+        width: 100%;
+
+    }
+
+    .section-two .max-width .container .story-title,
+    .section-third .max-width .container .story-title,
+    .section-four .max-width .container .story-title,
+    .section-five .max-width .container .story-title {
+        padding: 0 10px;
+
+    }
+
+    .section-two .max-width .container .story-title h1,
+    .section-third .max-width .container .story-title h1,
+    .section-four .max-width .container .story-title h1,
+    .section-five .max-width .container .story-title h1 {
+        font-size: 3.2rem;
+
+    }
+
+    .section-two .max-width .container .story-title h2,
+    .section-third .max-width .container .story-title h2,
+    .section-four .max-width .container .story-title h2,
+    .section-five .max-width .container .story-title h2 {
+        font-size: 2.2rem;
+
+    }
+
+    .section-two .container .featured-image::before {
+        height: 150px;
+        width: 230px;
+    }
+
+    .section-third .container .featured-image::before {
+
+        height: 75px;
+        width: 260px;
+        top: 83%;
+
+    }
+
+    .footer .max-width {
+        padding: 50px;
+    }
+
+}
+
+
+@media(max-width:414px) {
+
+    header .main .text-field p {
+        padding: 0 2rem;
+    }
+
+    header .main .text-field .email-input #email_btn {
+        margin-top: 2rem;
+    }
+
+    .section-six .max-width .text-field p {
+        font-size: 2.3rem;
+        padding: 0 20px;
+    }
+
+    .section-six .content .title h1 {
+        font-size: 3.4rem;
+        padding-top: 10px;
+        margin-bottom: 20px;
+
+    }
+
+    .section-six .max-width .text-field p {
+        font-size: 2.3rem;
+        padding: 0 20px;
+    }
+
+}
+
+
+@media (max-width:390px) {
+    header .main .text-field p {
+
+        padding: 0 2rem;
+
+    }
+
+
+    .section-two .max-width .container .story-title,
+    .section-third .max-width .container .story-title,
+    .section-four .max-width .container .story-title,
+    .section-five .max-width .container .story-title {
+        padding: 0 15px;
+
+    }
+
+    .section-six .content .title h1 {
+        font-size: 3.2rem;
+        padding-top: 10px;
+        margin-bottom: 20px;
+
+    }
+
+    .section-six .max-width .text-field p {
+        font-size: 2.3rem;
+        padding: 0 20px;
+    }
+
+    header .main .text-field .email-input #email_btn {
+        margin-top: 2rem;
+    }
+
+    .section-two .container .featured-image::before {
+        height: 130px;
+        width: 210px;
+    }
+}
